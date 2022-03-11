@@ -71,7 +71,7 @@
                                         </div>
                                         <div class="row m-2">
                                             <div class="col">
-                                                <a class="small" href=""></a>
+                                                <a class="small" href="resetPass.php">Reset Password</a>
                                             </div>
                                             <div class="col">
                                                 <a class="small" href="registration.php">Create Account</a>
