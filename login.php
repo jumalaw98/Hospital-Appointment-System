@@ -10,7 +10,7 @@
 </head>
 <body class="bg-light">
 <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light bg-warning">
                 <a class="navbar-brand" href="#">
                     <img class="p-1" src="https://www.who.int/images/default-source/infographics/who-emblem.png?sfvrsn=877bb56a_2" alt="hospital logo"
                     width="50">
@@ -24,7 +24,7 @@
                             <a class="nav-link" href="#">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="login.php">Login</a>
+                            <a class="nav-link active text-white" href="login.php">Login</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="registration.php">Register Account</a>
@@ -33,7 +33,7 @@
                             <a class="nav-link" href="#">Contacts</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Disabled</a>
+                            <a class="nav-link disabled" href="#"></a>
                         </li>
                     </ul>
                 </div>
@@ -41,7 +41,7 @@
         <!--end or first row -->
        </div>
    <div class="container w-50 mb-3 p-3 mt-5">
-               <div class="card shadow">
+               <div class="card shadow bg-white">
                         <div class="text-center text-primary p-2">
                             <h4>Welcome to Uzima Medical Hospital</h4>
                         </div>
@@ -54,7 +54,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <form action="handleLogin.php" method="post">
+                                    <form action="handleLogin.php" method="POST">
                                         <div class="alert alert-info">
                                             Uzima Self Service Portal
                                         </div>
@@ -71,7 +71,7 @@
                                         </div>
                                         <div class="row m-2">
                                             <div class="col">
-                                                <a class="small" href="">Forgot password?</a>
+                                                <a class="small" href=""></a>
                                             </div>
                                             <div class="col">
                                                 <a class="small" href="registration.php">Create Account</a>

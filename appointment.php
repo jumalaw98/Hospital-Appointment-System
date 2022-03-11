@@ -15,10 +15,10 @@
 </head>
 <body class="bg-light">
    <div class="container-fluid">
-       <div class="row h-100">
+       <div class="row">
            <!--side panel column -->
            <div class="col-2 bg-primary">
-               <ul class="nav">
+               <ul class="nav flex-column">
                     <li class="bg-white w-100">
                         <img class="p-1" src="https://www.who.int/images/default-source/infographics/who-emblem.png?sfvrsn=877bb56a_2" alt="hospital logo"
                          width="50">
@@ -51,6 +51,29 @@
                         </a>
                     </li>
                     <hr>
+                    <li class="nav-item m-2">
+                        <a class="nav-link text-white" href="">
+                            <i class="fas fa-dollar-sign">
+                                <span>Payments</span>
+                            </i>
+                        </a>
+                    </li>
+                    <hr>
+                    <li class="nav-item m-2">
+                        <a class="nav-link text-white" href="">
+                            <i class="fas fa-tools">
+                                <span>Settings</span>
+                            </i>
+                        </a>
+                    </li>
+                    <hr>
+                    <li class="nav-item m-2">
+                        <a class="nav-link text-white" href="logout.php">
+                            <i class="fas fa-power-off">
+                                <span>Logout</span>
+                            </i>
+                        </a>
+                    </li>
                 </ul>
            </div>
            <!--main column-->
@@ -102,7 +125,6 @@
                                                 //delete button
                                                 echo "<td>
                                                     <a class='m-2 text-danger' href='delete.php?id=".$row['id']."'><i class='fa fa-trash'>Cancel Appointment</i></a>
-                                                    <a class='m-2 text-warning' href='edit.php?id=".$row['id']."'><i class='fas fa-pencil-alt'>Edit Appointment</i></a>
                                                 </td>";
 
                                                 echo "</tr>";
@@ -179,12 +201,12 @@
                                                     </div>
                                                 </div>
                                                 <div class="row m-2">
-                                                    <button type="submit" name="book" class="btn btn-primary">Save changes</button>
+                                                    <button type="submit" name="book" class="btn btn-primary">Submit</button>
                                                 </div>
                                             </form>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
                                             <!--<button type="submit" name="book" class="btn btn-primary">Save changes</button>-->
                                         </div>
                                     </div>

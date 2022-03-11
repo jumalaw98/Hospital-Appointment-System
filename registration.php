@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-    <title>Document</title>
+    <title>Registration</title>
+    <style>
+        body {
+            background-image: url("https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhvc3BpdGFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60");
+            background-size: cover;
+        }
+    </style>
 </head>
 <body class="bg-light">
 <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light bg-warning">
                 <a class="navbar-brand" href="#">
                     <img class="p-1" src="https://www.who.int/images/default-source/infographics/who-emblem.png?sfvrsn=877bb56a_2" alt="hospital logo"
                     width="50">
@@ -27,13 +33,13 @@
                             <a class="nav-link" href="login.php">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="registration.php">Register Account</a>
+                            <a class="nav-link active text-white" href="registration.php">Register Account</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contacts</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Disabled</a>
+                            <a class="nav-link disabled" href="#"></a>
                         </li>
                     </ul>
                 </div>

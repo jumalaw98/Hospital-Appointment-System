@@ -33,6 +33,18 @@
                             </a>
                         </li>
                         <hr>
+                        <li class="nav-item">
+                            <a class="nav-link text-black">
+                                <i class="fa fa-stethoscope fa-lg">Diagnosis</i>
+                            </a>
+                        </li>
+                        <hr>
+                        <li class="nav-item">
+                            <a class="nav-link text-black">
+                                <i class="fas fa-tools fa-lg">Settings</i>
+                            </a>
+                        </li>
+                        <hr>
                     </ul>
                 </div>
             <!--end of side panel div -->
@@ -43,12 +55,6 @@
                     <div class="row bg-warning">
                         <ul class="nav justify-content-end">
                             <li class="nav-item m-2">
-                                one
-                            </li>
-                            <li class="nav-item m-2">
-                                two
-                            </li>
-                            <li class="nav-item m-2">
                                 Logout<i class="fas fa-power-off"></i>
                             </li>
                         </ul>
@@ -58,15 +64,16 @@
                     <div class="row">
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb m-2">
-                                <li class="breadcrumb-item active" aria-current="page">View Appointments</li>
-                                <li class="breadcrumb-item">View Lab Results</li>
+                                <li class="breadcrumb-item active" aria-current="page">Appointments</li>
+                                <li class="breadcrumb-item">Lab Results</li>
+                                <li class="breadcrumb-item">Diagnosis</li>
                             </ol>
                         </nav>
                     <!--end of breadcrumb-->
                     </div>
                     <div class="row m-2">
                         <div class="alert alert-info">
-                            <span>Below are patients appointments, please update the status</span>
+                            <span>Below are patients appointments, please update their status</span>
                         </div>
                     </div>
 
