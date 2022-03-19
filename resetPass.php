@@ -48,12 +48,15 @@
     <title>Registration</title>
 </head>
 <body class="bg-light">
-    <div class="container-fluid">
+    <div class="container-fluid w-50 mt-5">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col">
                 <div class="card">
                     <div class="card-body">
                         <form action="resetPass.php" method="POST">
+                            <div class="text-center text-primary">
+                                <span>Reset Password</span>
+                            </div>
                             <!--username-->
                             <div class="row w-75 m-2">
                                 <input class="form-control" type="text" name="email" placeholder="Enter Email">
@@ -66,7 +69,12 @@
                                 <input class="form-control" type="password" name="confirmPassword" placeholder="Confirm password">
                             </div>
                             <div class="row m-2">
-                                <input class="btn btn-primary w-75" type="submit" name="reset" value="Reset">
+                                <div class="col-sm-6">
+                                    <input class="btn btn-primary w-75" type="submit" name="reset" value="Reset">
+                                </div>
+                                <div class="col-sm-6">
+                                    <a class="btn btn-warning col-md-6" href="login.php">Back</a>
+                                </div>
                             </div>
                         </form>
                     </div>

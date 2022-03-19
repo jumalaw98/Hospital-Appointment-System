@@ -28,7 +28,7 @@
                             <a class="nav-link active text-white" href="mainPage.php">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#">Partners</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="login.php">Login</a>
@@ -54,6 +54,119 @@
                     Compassion lives here, Care that lasts a lifetime.
                     </big>
                 </div>
+       </div>
+       <div class="row fixed-bottom">
+       <footer class="bg-light text-center text-lg-start">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!--Grid row-->
+                <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Contacts</h5>
+
+                    <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <span class="text-dark fas fa-phone-square-alt">Phone: +254729282929</span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="text-dark fas fa-mail-bulk">Email: Uzimahosp@gmail.com</span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="text-dark fas fa-phone-alt">Tel: +2547637272727</span>
+                    </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">Services</h5>
+
+                    <ul class="list-unstyled">
+                    <li>
+                        <a href="#!" class="text-dark"></a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-dark">
+                            <span class="fas fa-radiation-alt">Radiology Treatment</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-dark">
+                            <span class="fas fa-tooth">Dental Services</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-dark">
+                            <span class="fas fa-eye-dropper">Eye Treatment</span>
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Social Media</h5>
+
+                    <ul class="list-unstyled mb-0">
+                    <li>
+                        <a href="#!" class="text-dark">
+                            <span class="fab fa-facebook-square">Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-dark">
+                            <span class="fab fa-twitter">Twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-dark">
+                            <span class="fab fa-instagram">Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-dark">
+                            <span class="fab fa-linkedin">LinkedIn</span>
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">Branches</h5>
+
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="#!" class="text-dark">Kisumu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#!" class="text-dark">Nairobi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#!" class="text-dark">Kakamega</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#!" class="text-dark">Nakuru</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2022 Copyright:
+                <a class="text-dark" href="">Uzimahospital.com</a>
+            </div>
+            <!-- Copyright -->
+            </footer>
        </div>
    <!--end of main container -->
    </div> 

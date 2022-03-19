@@ -60,18 +60,15 @@
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <title>Document</title>
 </head>
-<body>
+<body class="bg-light">
     <div class="row m-2">
-        <div class="card w-50">
+        <div class="card w-50 m-5">
             <div class="card-header">
                 <h4>Confirm Patients Appointment</h4>
             </div>
             <div class="card-body">
                 <form action="edit.php" method="POST">
                     <div class="row">
-                        <div class="row m-2">
-                            <input class="form-control" type="text" name="patientName" placeholder="Patient's Name" value="<?php echo "$fullName"; ?>">
-                        </div>
                         <div class="row m-2">
                             <input class="form-control" type="text" name="doctorsName" placeholder="Doctor's Name" value="<?php echo "$doctorsName"; ?>">
                         </div>

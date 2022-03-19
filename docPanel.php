@@ -12,7 +12,7 @@
     <title>Doctor's Dashboard</title>
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid h-100">
         <div class="row h-100">
             <div class="col-2 bg-info">
                 <div>
@@ -35,7 +35,7 @@
                         <hr>
                         <li class="nav-item">
                             <a class="nav-link text-black">
-                                <i class="fa fa-stethoscope fa-lg">Diagnosis</i>
+                                <i class="fa fa-diagnoses fa-lg">Diagnosis</i>
                             </a>
                         </li>
                         <hr>
@@ -77,7 +77,7 @@
                         </div>
                     </div>
 
-                    <div class="card-body">
+                    <div class="card-body shadow">
                            <!--appointment table-->
                            <div>
                                <?php
